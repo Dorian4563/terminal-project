@@ -30,8 +30,13 @@ remove_task() {
     echo "Error: Task number must be an integer."
     return 1
   fi
+
+    if [ ! -s "$TODO_FILE" ]; then
+    echo "No tasks to remove."
+    return 1
+  fi
   
-  sed -i "${1}d" "tasks.txt"
+ sed -i '' "${1}d" "$TODO_FILE"
   echo "Task $1 removed."
 }
 initialize
