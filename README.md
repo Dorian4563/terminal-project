@@ -1,7 +1,5 @@
 # TERMINAL TO DO LIST APPLICATION# terminal-project
 
-# SYSTEM INFO DASHBOARD SCRIPT# System-Info-Dashboard-Script2
-
 ## preview
 ![alt text](<Screen Shot 2026-02-25 at 16.27.54.png>)
 
