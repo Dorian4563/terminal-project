@@ -1,5 +1,4 @@
 #!/bin/bash
-
 TODO_FILE="tasks.txt" 
 initialize() {
   if [ ! -f "$TODO_FILE" ]; then
